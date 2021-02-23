@@ -3,7 +3,7 @@ var http = require('http');
 var bodyParser = require('body-parser');
 var morgan = require('morgan');
 var app = express();
-var port = process.env.PORT||'3000';
+var port = process.env.PORT||3000;
 var hostname = 'localhost';
 
 app.use(express.static(__dirname+"/public"));
